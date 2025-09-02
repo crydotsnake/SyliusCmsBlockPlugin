@@ -30,10 +30,7 @@ class Block implements BlockInterface
 
     protected ?int $id = null;
 
-    /**
-     * @var string|null
-     */
-    protected $code;
+    protected ?string $code = null;
 
     /**
      * @var DateTimeInterface|null

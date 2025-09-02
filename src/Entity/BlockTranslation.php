@@ -17,9 +17,9 @@ class BlockTranslation extends AbstractTranslation implements BlockTranslationIn
 {
     protected ?int $id = null;
 
-    protected ?string $name;
+    protected ?string $name = null;
 
-    protected ?string $content;
+    protected ?string $content = null;
 
     public function getId(): ?int
     {
